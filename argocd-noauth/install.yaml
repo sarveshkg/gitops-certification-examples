@@ -24,6 +24,7 @@ spec:
       type: string
     - jsonPath: .status.health.status
       name: Health Status
+      priority: 09
       type: string
     - jsonPath: .status.sync.revision
       name: Revision
