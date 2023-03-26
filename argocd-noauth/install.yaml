@@ -19,17 +19,6 @@ spec:
   scope: Namespaced
   versions:
   - additionalPrinterColumns:
-    - jsonPath: .status.sync.status
-      name: Sync Status
-      type: string
-    - jsonPath: .status.health.status
-      name: Health Status
-      priority: 09
-      type: string
-    - jsonPath: .status.sync.revision
-      name: Revision
-      priority: 10
-      type: string      
     name: v1alpha1
     schema:
       openAPIV3Schema:
