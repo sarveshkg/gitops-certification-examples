@@ -22,12 +22,12 @@ spec:
     - jsonPath: .status.sync.status
       name: Sync Status
       type: string
+    - jsonPath: .status.health.status
+      name: Health Status
+      type: string
     - jsonPath: .status.sync.revision
       name: Revision
       priority: 10
-      type: string
-    - jsonPath: .status.health.status
-      name: Health Status
       type: string      
     name: v1alpha1
     schema:
